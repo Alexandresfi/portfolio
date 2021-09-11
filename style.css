@@ -14,11 +14,6 @@ body{
     font-weight: normal;
 }
 
-@media (max-width: 1024px){
-    nav{
-        bottom: 0;
-    }
-}
 
 li{
     list-style: none;
@@ -182,7 +177,7 @@ nav .end img{
     width: calc(100vw - 20px);
     height: 732.67px;
     color: black;
-    margin: 3rem auto 0 auto;    
+    margin: 10vh auto 0 auto;    
 }
 
 .presentation .container{
@@ -207,7 +202,7 @@ nav .end img{
     width: 720px;
     height: 256px;
 
-    margin-top: 350px;
+    margin-top: 40vh;
 }
 
 .i-am ul{
@@ -709,4 +704,484 @@ form .conteudo{
     font-size: 16px;
     line-height: 24px;
     outline: none;
+}
+
+@media (max-width: 1024px){
+
+    body{
+        position: static;
+    }
+
+    header{
+        height: 100vh;
+        text-align: center;
+        position: static;
+    }
+
+    header p{
+        width: 100vw;
+        padding: 0 10px;
+        text-align: left;
+    }
+
+    header .progra{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .presentation{
+        width: 100vw;
+        height: 732px;
+        color: black;
+        margin-top: -10px;
+    }
+    
+    .presentation .container{
+        display: block;
+        padding: 128px 0px;
+
+        height: 70vh;
+
+        background-color: #CFE2FF;
+    }    
+
+    .i-am{
+        display: block;
+
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 100vw;
+        height: 256px;
+
+        margin-top: -15vh;
+        
+    }
+
+    .i-am img{
+        display: none;
+    }
+
+    .i-am ul{
+        padding: 5px;
+        display: block;
+    }
+
+    .i-am ul h1{
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 48px;
+    }
+
+    .container2 h1{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38px;
+        margin-top: 10vh;
+
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .container2{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .profi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 90vw;
+    }
+
+    .profi h2{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .frontM{
+        display: block;
+        padding-right: 10px;
+    }
+
+    .profi .front,.profi .back,.profi .mobile{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 32px;
+
+        width: 100vw;
+        height: 150px;
+
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        text-align: center;
+        border: rgba(0, 0, 0, 0.1) 0.01px solid;
+        border-left: white;
+        border-right: white;
+        border-top: white;
+    }
+
+    .profi img, .skills img{
+    width: 96px;
+    height: 64px;
+    }
+    
+    .habi{
+     width: 90vw;
+     color: white;
+     margin: 29vh auto 0 auto;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+        background-color: white;
+    
+        color: black;
+        margin: 0 auto 0 auto;
+        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+    }
+
+    .skills .front2, .skills .back2{
+        border: rgba(0, 0, 0, 0.1) 0.01px solid;
+        border-right: white;
+        border-left: white;
+        width: 100vw;
+       
+        padding: 20px 16px;
+    }
+
+
+    .projetos h1{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    }
+
+    .projetos h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    padding: 8px 0;
+    }
+
+    .projetos p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 16px;
+    }
+
+    .projetos .start{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    }
+
+    .projetos .escola, .projetos .nota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    margin: 30px auto 0 auto;
+    text-align: right;
+
+    width: 90vw;
+    height: 65vh;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+
+    background-color:white;
+    color: black;
+
+    
+    }
+
+    .projetos img{
+    width: 320px;
+    height: 207px;
+    
+    }
+
+    .projetos .nota .la{
+    width: 250px;
+    height: 186px;
+    margin-left: auto;
+    }
+
+    .btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    height: 38px;
+    justify-content: flex-end;
+    }
+
+    .projetos button img{
+    width: 16px;
+    height: 16px;
+    }
+
+    .btn .seeSite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1px;
+
+    width: 135px;
+    height: 38px;
+
+    color: white;
+    background-color: #6F42C1;
+    border-radius: 4px;
+    border: none;
+    margin: 0px 16px;
+    }
+
+    .btn .seeCode{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 6px 12px;
+
+    width: 135px;
+    height: 38px;
+
+    color: white;
+    background: #0D6EFD;
+    border-radius: 4px;
+    border: none;
+    }
+
+    .btn button a{ text-decoration: none; color: white; }
+
+    .escola, .text{
+    border: rgba(0, 0, 0, 0.1) 0.01px solid;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+    padding-bottom: 16px;
+    }
+
+    .nota .text{padding-right:0;}
+
+    .Exper{
+        width: 50vw;
+        margin: auto;
+        display: block;
+    }
+
+    .Exper .empregos{
+        display: block;
+    }
+
+    .Exper img{ margin-left: -9vw;}
+
+    .Exper .empregos .line{
+        width: 190px;
+        height: 0;
+        margin-bottom: 10px;
+    }
+
+    
+    .curso{
+        width: 98.7vw;
+        color: white;
+        margin: 30px auto 0 auto;
+    }
+
+    .curso h1{
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 48px;
+
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .curso h3, .curso h2{
+        margin: 10px;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        width: 90vw;
+       
+    }
+
+    .curso img{
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .skills .prog-br, .skills .codeclub{
+        border: rgba(0, 0, 0, 0.1) 0.01px solid;
+        border-right: white;
+        border-left: white;
+        width: 90vw;
+    }
+
+
+    
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    margin: auto;
+}
+
+.contato .containerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerForm ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+.containerForm li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    
+    background-color: white;
+    text-decoration: none;
+    color: black;
+
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    height: 38px;
+}
+
+.containerForm li{
+    margin: 5px;
+
+}
+
+.containerForm li img{
+    width: 20px;
+    padding: 6px;
+}
+
+.containerContato form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px 15px;
+    width: 90vw;
+    height: 40vh;
+    margin: auto;
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+form button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+
+    width: 89px;
+    height: 36px;
+
+    color: white;
+    background-color: #0D6EFD;
+    border: 1px solid #0D6EFD;
+    border-radius: 4px;
+    margin-left: 59vw;
+}
+
+form input{
+    width: 80vw;
+    height: 36px;
+    padding: 6px 12px;
+    color: #6C757D;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+
+    margin: 10px auto 12px auto;
+}
+
+form .conteudo{
+    height: 27vh;
+    width: 80vw;
+    margin: 10px auto 12px auto;
+
+    padding: 6px 12px;
+    color: #6C757D;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+}
+
+
+
+
+
+    nav{
+        display: none;
+        flex-direction: row;
+        height: 64px;
+        width: 100vw;
+
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    .firsth h3{display: block;}
+
+    nav .menu{
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav .end{
+        display: flex;
+        flex-direction: row;
+    }
+
+
 }
