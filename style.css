@@ -14,6 +14,12 @@ body{
     font-weight: normal;
 }
 
+@media (max-width: 1024px){
+    nav{
+        bottom: 0;
+    }
+}
+
 li{
     list-style: none;
 }
@@ -129,6 +135,11 @@ nav .menu{
 .open .menu li p{
     display: block;
     margin-left: 10px;
+}
+
+.open a{
+    text-decoration: none;
+    color: white;
 }
 
 .open .menu .i{margin-left: -9px;}
@@ -575,10 +586,127 @@ nav .end img{
     padding: 15px;
 }
 
-/* .skills .prog-br li, .skills .codeclub li{
-    text-align:left;
-    padding: 20px 10px;
-} */
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+    margin: auto;
+}
 
+.contato h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 5px;
+}
 
+.contato h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 5px;
 
+}
+
+.contato .containerForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerForm ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+}
+
+.containerForm li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    
+    background-color: white;
+    text-decoration: none;
+    color: black;
+
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    height: 38px;
+}
+
+.containerForm li{
+    margin: 10px;
+
+}
+
+.containerForm li img{
+    width: 30px;
+    padding: 6px;
+}
+
+.containerContato form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px 15px;
+    width: 45vw;
+    height: 40vh;
+
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+form button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+
+    width: 89px;
+    height: 36px;
+
+    color: white;
+    background-color: #0D6EFD;
+    border: 1px solid #0D6EFD;
+    border-radius: 4px;
+    margin-left: 35vw;
+}
+
+form input{
+    width: 40vw;
+    height: 36px;
+    padding: 6px 12px;
+    color: #6C757D;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+
+    margin: 10px auto 12px auto;
+}
+
+form .conteudo{
+    height: 27vh;
+    width: 40vw;
+    margin: 10px auto 12px auto;
+
+    padding: 6px 12px;
+    color: #6C757D;
+
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+}
