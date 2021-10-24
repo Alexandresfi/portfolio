@@ -333,7 +333,7 @@ nav .end img{
     padding: 20px 10px;
 }
 
-.skills .back2 img{margin-top: -10px;}
+.skills .back2 img{margin-top: -139px;}
 
 .projetos{
     display: flex;
@@ -371,7 +371,7 @@ nav .end img{
     line-height: 24px;
 }
 
-.projetos .escola, .projetos .nota{
+.projetos .escola, .projetos .nota, .projetos .site{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -482,6 +482,7 @@ nav .end img{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 50px;
 }
 
 .Exper .empregos .line{
@@ -489,6 +490,13 @@ nav .end img{
     margin-right: 10px;
     background-color: rgba(173, 181, 189, 1);
     border: 0.5px solid #ADB5BD;
+}
+
+.Exper .empregos .valiant{
+    height: 188px;
+    margin-right: 30px;
+    margin-left: 35px;
+    
 }
 
 .empregos .description p{
@@ -995,7 +1003,7 @@ form .conteudo{
         display: block;
     }
 
-    .Exper img{ margin-left: -9vw;}
+    .Exper img{ margin-left: -9vw; }
 
     .Exper .empregos .line{
         width: 190px;
@@ -1003,6 +1011,12 @@ form .conteudo{
         margin-bottom: 10px;
     }
 
+    .Exper .empregos .valiant{
+        height: 188px;
+        margin-right: 0;
+        margin-left: 0;
+        
+    }
     
     .curso{
         width: 98.7vw;
