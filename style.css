@@ -903,7 +903,7 @@ form .conteudo{
     line-height: 24px;
     }
 
-    .projetos .escola, .projetos .nota{
+    .projetos .escola, .projetos .nota, .projetos .site{
     display: flex;
     flex-direction: column;
     align-items: center;
