@@ -371,7 +371,7 @@ nav .end img{
     line-height: 24px;
 }
 
-.projetos .escola, .projetos .nota, .projetos .site{
+.projetos .escola, .projetos .nota, .projetos .site, .projetos .frella{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -903,7 +903,7 @@ form .conteudo{
     line-height: 24px;
     }
 
-    .projetos .escola, .projetos .nota{
+    .projetos .escola, .projetos .nota, .projetos .site, .projetos .frella{
     display: flex;
     flex-direction: column;
     align-items: center;
