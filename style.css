@@ -903,11 +903,8 @@ form .conteudo{
     line-height: 24px;
     }
 
-<<<<<<< HEAD
     .projetos .escola, .projetos .nota, .projetos .site, .projetos .frella{
-=======
-    .projetos .escola, .projetos .nota, .projetos .site{
->>>>>>> 7b43f183fc9a6ea8a6f78ba73138bfbaa84cc89b
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1172,10 +1169,6 @@ form .conteudo{
     line-height: 24px;
     outline: none;
 }
-
-
-
-
 
     nav{
         display: none;
