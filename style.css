@@ -335,6 +335,20 @@ nav .end img{
 
 .skills .back2 img{margin-top: -139px;}
 
+.Exper .webjump-img, .Exper .avanti{
+    margin: 0 35px;
+    height: 161px;
+}
+
+@media (max-width: 660px){
+    .skills .back2 img{margin-top: 0;}
+
+    .Exper .webjump-img, .Exper .avanti{
+        margin-left: 15px !important;
+    }
+
+}
+
 .projetos{
     display: flex;
     flex-direction: column;
