@@ -336,7 +336,7 @@ nav .end img{
 .skills .back2 img{margin-top: -139px;}
 
 .Exper .webjump-img, .Exper .avanti{
-    margin: 0 35px;
+    margin: 0 46px;
     height: 161px;
 }
 
@@ -345,6 +345,10 @@ nav .end img{
 
     .Exper .webjump-img, .Exper .avanti{
         margin-left: 15px !important;
+    }
+
+    .projetos .clash-card{
+        width: 50% !important;
     }
 
 }
