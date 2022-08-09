@@ -1,4 +1,4 @@
-<h1> align="center> portfólio </h1>
+<h1 align="center"> portfólio </h1>
 
 Esta aplicação tem como objeto divulgar minhas habilidades e experiências como desenvolvedor. Para desenvolver este projeto usei 
 -  <strong> `HTML` <strong> 
